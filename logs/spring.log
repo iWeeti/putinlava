@@ -1,0 +1,136 @@
+2018-09-04 07:32:59.454  INFO 3856 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5dc0e84f3f54b0a12e5115f3b8899ffd4df22a80-SNAPSHOT
+	Build:          616
+	Build time:     25.08.2018 13:29:12 CEST
+	Branch          master
+	Commit:         5dc0e84
+	Commit time:    25.08.2018 13:27:05 CEST
+	JVM:            10.0.2
+	Lavaplayer      1.3.7
+
+2018-09-04 07:32:59.919  INFO 3856 --- [main] o.s.boot.SpringApplication               :        .   _                  _ _       _    __ _ _
+      /\\ | | __ ___   ____ _| (_)_ __ | | __\ \ \ \
+     ( ( )| |/ _` \ \ / / _` | | | '_ \| |/ / \ \ \ \
+      \\/ | | (_| |\ V / (_| | | | | | |   <   ) ) ) )
+       '  |_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\ / / / /
+    =========================================/_/_/_/
+
+    :: Lavalink    ::       
+    :: Spring Boot ::        (v2.0.2.RELEASE)
+
+
+2018-09-04 07:33:00.399  INFO 3856 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-I6DQEUQ with PID 3856 (C:\Users\Veeti\Desktop\lavalink server\Lavalink.jar started by Veeti in C:\Users\Veeti\Desktop\lavalink server)
+2018-09-04 07:33:00.409  INFO 3856 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2018-09-04 07:33:00.715  INFO 3856 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e9131d5: startup date [Tue Sep 04 07:33:00 EEST 2018]; root of context hierarchy
+2018-09-04 07:33:06.922  INFO 3856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2333 (http)
+2018-09-04 07:33:07.061  INFO 3856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-04 07:33:07.063  INFO 3856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-04 07:33:07.104  INFO 3856 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\ImageMagick-7.0.8-Q16;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\PostgreSQL\pg10\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Brackets\command;C:\PostgreSQL\pg10\lib;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\SDK\ScopeCppSDK\SDK\bin;C:\cygwin64\bin;C:\MinGW\bin;C:\opencv_3.0\opencv\build\include;C:\opencv_3.0\opencv\build\x64\vc14\lib;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\CMake\bin;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32\;C:\Users\Veeti\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Veeti\AppData\Local\atom\bin;C:\ffmpeg\bin;C:\Users\Veeti\AppData\Local\Microsoft\WindowsApps;C:\Users\Veeti\AppData\Roaming\npm;C:\Users\Veeti\AppData\Local\GitHubDesktop\bin;C:\Users\Veeti\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2018-09-04 07:33:07.378  INFO 3856 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-04 07:33:07.389  INFO 3856 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6670 ms
+2018-09-04 07:33:07.966  INFO 3856 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-04 07:33:07.989  INFO 3856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-04 07:33:07.999  INFO 3856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-04 07:33:07.999  INFO 3856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-04 07:33:08.007  INFO 3856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-04 07:33:08.335  INFO 3856 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2018-09-04 07:33:08.350  INFO 3856 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2018-09-04 07:33:08.365  INFO 3856 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2018-09-04 07:33:08.375  INFO 3856 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 600
+2018-09-04 07:33:08.505  INFO 3856 --- [WebSocketSelector-25] lavalink.server.io.SocketServer          : Started WS server with port 80
+2018-09-04 07:33:10.465  INFO 3856 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2018-09-04 07:33:10.577  WARN 3856 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2018-09-04 07:33:10.935  INFO 3856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 07:33:11.865  INFO 3856 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7e9131d5: startup date [Tue Sep 04 07:33:00 EEST 2018]; root of context hierarchy
+2018-09-04 07:33:12.256  INFO 3856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/debug/nashorn],methods=[POST]}" onto public java.lang.String lavalink.server.util.DebugRestHandler.getLoadTracks(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+2018-09-04 07:33:12.276  INFO 3856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loadtracks],methods=[GET],produces=[application/json]}" onto public java.util.concurrent.CompletionStage<org.springframework.http.ResponseEntity<java.lang.String>> lavalink.server.player.AudioLoaderRestHandler.getLoadTracks(javax.servlet.http.HttpServletRequest,java.lang.String)
+2018-09-04 07:33:12.286  INFO 3856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decodetrack],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> lavalink.server.player.AudioLoaderRestHandler.getDecodeTrack(javax.servlet.http.HttpServletRequest,java.lang.String) throws java.io.IOException
+2018-09-04 07:33:12.286  INFO 3856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decodetracks],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> lavalink.server.player.AudioLoaderRestHandler.postDecodeTracks(javax.servlet.http.HttpServletRequest,java.lang.String) throws java.io.IOException
+2018-09-04 07:33:12.315  INFO 3856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-04 07:33:12.325  INFO 3856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-04 07:33:12.459  INFO 3856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 07:33:12.459  INFO 3856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 07:33:13.910  INFO 3856 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-04 07:33:14.428  INFO 3856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2333 (http) with context path ''
+2018-09-04 07:33:14.448  INFO 3856 --- [main] lavalink.server.Launcher                 : Started Launcher in 16.985 seconds (JVM running for 19.341)
+2018-09-04 07:33:27.336  INFO 3856 --- [WebSocketWorker-21] lavalink.server.io.SocketServer          : Connection opened from /0:0:0:0:0:0:0:1:55809 with protocol Draft_6455 extension: DefaultExtension protocol: 
+2018-09-04 07:33:27.340  INFO 3856 --- [WebSocketWorker-21] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2018-09-04 15:09:20.295  INFO 10496 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5dc0e84f3f54b0a12e5115f3b8899ffd4df22a80-SNAPSHOT
+	Build:          616
+	Build time:     25.08.2018 13:29:12 CEST
+	Branch          master
+	Commit:         5dc0e84
+	Commit time:    25.08.2018 13:27:05 CEST
+	JVM:            10.0.2
+	Lavaplayer      1.3.7
+
+2018-09-04 15:09:20.609  INFO 10496 --- [main] o.s.boot.SpringApplication               :        .   _                  _ _       _    __ _ _
+      /\\ | | __ ___   ____ _| (_)_ __ | | __\ \ \ \
+     ( ( )| |/ _` \ \ / / _` | | | '_ \| |/ / \ \ \ \
+      \\/ | | (_| |\ V / (_| | | | | | |   <   ) ) ) )
+       '  |_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\ / / / /
+    =========================================/_/_/_/
+
+    :: Lavalink    ::       
+    :: Spring Boot ::        (v2.0.2.RELEASE)
+
+
+2018-09-04 15:09:21.080  INFO 10496 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-I6DQEUQ with PID 10496 (C:\Users\Veeti\Desktop\lavalink server\Lavalink.jar started by Veeti in C:\Users\Veeti\Desktop\lavalink server)
+2018-09-04 15:09:21.085  INFO 10496 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2018-09-04 15:09:21.340  INFO 10496 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36d585c: startup date [Tue Sep 04 15:09:21 EEST 2018]; root of context hierarchy
+2018-09-04 15:09:27.380  INFO 10496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2333 (http)
+2018-09-04 15:09:27.506  INFO 10496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-04 15:09:27.509  INFO 10496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-04 15:09:27.559  INFO 10496 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\ImageMagick-7.0.8-Q16;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\PostgreSQL\pg10\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Brackets\command;C:\PostgreSQL\pg10\lib;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\SDK\ScopeCppSDK\SDK\bin;C:\cygwin64\bin;C:\MinGW\bin;C:\opencv_3.0\opencv\build\include;C:\opencv_3.0\opencv\build\x64\vc14\lib;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\CMake\bin;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32\;C:\Users\Veeti\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32;C:\Users\Veeti\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Veeti\AppData\Local\atom\bin;C:\ffmpeg\bin;C:\Users\Veeti\AppData\Local\Microsoft\WindowsApps;C:\Users\Veeti\AppData\Roaming\npm;C:\Users\Veeti\AppData\Local\GitHubDesktop\bin;C:\Users\Veeti\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2018-09-04 15:09:27.857  INFO 10496 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-04 15:09:27.861  INFO 10496 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6521 ms
+2018-09-04 15:09:28.430  INFO 10496 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-04 15:09:28.445  INFO 10496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-04 15:09:28.451  INFO 10496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-04 15:09:28.457  INFO 10496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-04 15:09:28.460  INFO 10496 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-04 15:09:28.772  INFO 10496 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2018-09-04 15:09:28.774  INFO 10496 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2018-09-04 15:09:28.781  INFO 10496 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2018-09-04 15:09:28.788  INFO 10496 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 600
+2018-09-04 15:09:28.932  INFO 10496 --- [WebSocketSelector-23] lavalink.server.io.SocketServer          : Started WS server with port 80
+2018-09-04 15:09:30.994  INFO 10496 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2018-09-04 15:09:31.109  WARN 10496 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2018-09-04 15:09:31.503  INFO 10496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 15:09:32.437  INFO 10496 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@36d585c: startup date [Tue Sep 04 15:09:21 EEST 2018]; root of context hierarchy
+2018-09-04 15:09:32.765  INFO 10496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/debug/nashorn],methods=[POST]}" onto public java.lang.String lavalink.server.util.DebugRestHandler.getLoadTracks(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+2018-09-04 15:09:32.788  INFO 10496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loadtracks],methods=[GET],produces=[application/json]}" onto public java.util.concurrent.CompletionStage<org.springframework.http.ResponseEntity<java.lang.String>> lavalink.server.player.AudioLoaderRestHandler.getLoadTracks(javax.servlet.http.HttpServletRequest,java.lang.String)
+2018-09-04 15:09:32.796  INFO 10496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decodetrack],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> lavalink.server.player.AudioLoaderRestHandler.getDecodeTrack(javax.servlet.http.HttpServletRequest,java.lang.String) throws java.io.IOException
+2018-09-04 15:09:32.805  INFO 10496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decodetracks],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> lavalink.server.player.AudioLoaderRestHandler.postDecodeTracks(javax.servlet.http.HttpServletRequest,java.lang.String) throws java.io.IOException
+2018-09-04 15:09:32.825  INFO 10496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-04 15:09:32.830  INFO 10496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-04 15:09:32.946  INFO 10496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 15:09:32.953  INFO 10496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 15:09:33.677  INFO 10496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-04 15:09:33.847  INFO 10496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2333 (http) with context path ''
+2018-09-04 15:09:33.868  INFO 10496 --- [main] lavalink.server.Launcher                 : Started Launcher in 15.702 seconds (JVM running for 18.339)
+2018-09-04 15:11:30.570  INFO 10496 --- [http-nio-0.0.0.0-2333-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-04 15:11:30.573  INFO 10496 --- [http-nio-0.0.0.0-2333-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-04 15:11:30.658  INFO 10496 --- [http-nio-0.0.0.0-2333-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 82 ms
+2018-09-04 15:11:30.791  INFO 10496 --- [http-nio-0.0.0.0-2333-exec-1] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2018-09-04 15:11:32.941  INFO 10496 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kruszwil audi a 5
+2018-09-04 15:29:06.072  INFO 10496 --- [http-nio-0.0.0.0-2333-exec-4] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2018-09-04 15:29:06.945  INFO 10496 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kana boon baton road
+2018-09-04 17:42:42.734  INFO 10496 --- [http-nio-0.0.0.0-2333-exec-7] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
