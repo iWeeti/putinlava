@@ -8,7 +8,7 @@ lavalink:
   server:
     password: "test"
     ws:
-      port: 80
+      port: 5000
       host: 0.0.0.0
     sources:
       youtube: true
@@ -21,7 +21,7 @@ lavalink:
       local: false
     bufferDurationMs: 400
     youtubePlaylistLoadLimit: 600
-    gc-warnings: true
+    gc-warnings: false
 
 metrics:
   prometheus:
